@@ -1,0 +1,35 @@
+/* .container{
+    display: flex;
+} */
+
+.grid{
+    margin: 30px;
+    height: 440fr;
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+.controls{
+    margin-left: 180px;
+}
+
+.controls button{
+    height: 30px;
+    width: 50px;
+}
+
+.currentBlock{
+    background-color: red;
+}
+
+.blockedBlock{
+    background-color: black;
+}
